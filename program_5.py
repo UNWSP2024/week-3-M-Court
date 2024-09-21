@@ -25,9 +25,9 @@ if cheese == "yes" and peppers == "yes":
 if cheese == "yes" and peppers == "no": 
 		subtotal = order + 0.5
 if cheese == "no" and peppers == "yes":
-		subtotal == order + 1
+		subtotal = order + 1
 if cheese == "no" and peppers == "no":
-    subtotal == order
+    subtotal = order
 
 #print subtotal 
 print(f'Your subtotal is ${subtotal:.2f}')

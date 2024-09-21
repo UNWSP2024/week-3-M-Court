@@ -18,7 +18,7 @@ if order == "Chili Dog":
 cheese = input("Would you like cheese? ")
 
 #ask user if they want peppers
-peppers = input("Would you like cheese? ")
+peppers = input("Would you like peppers? ")
 
 if cheese == "yes" and peppers == "yes":
 		subtotal = float(f"{order + 1.5}")

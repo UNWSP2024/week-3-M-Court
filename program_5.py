@@ -26,7 +26,7 @@ if cheese == "yes" and peppers == "no":
 		subtotal = order + 0.5
 if cheese == "no" and peppers == "yes":
 		subtotal == order + 1
-if cheese == "no" and peppers == "no"""
+if cheese == "no" and peppers == "no":
     subtotal == order
 
 #print subtotal 

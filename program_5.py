@@ -9,10 +9,10 @@
 #user chooses Hot Dog or Chili Dog
 order = input("Would you like a hot dog or chili dog? ")
 
-if "Hot Dog":
-		order = 3.5
-if "Chili Dog":	
-		order = 4.5
+if order == "Hot Dog":
+		order = float(3.5)
+if order == "Chili Dog":	
+		order = float(4.5)
 
 #ask user if they want cheese
 cheese = input("Would you like cheese? ")

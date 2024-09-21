@@ -6,7 +6,7 @@
 # The program then displays the hot dog cost, tax and total cost. 
 
 
-#user chooses hot dog or chili dog
+#user chooses Hot Dog or Chili Dog
 order = input("Would you like a hot dog or chili dog? ")
 
 if order == "hot dog":
@@ -26,6 +26,8 @@ if cheese == "yes" and peppers == "no":
 		subtotal = order + 0.5
 if cheese == "no" and peppers == "yes":
 		subtotal == order + 1
+if cheese == "no" and peppers == "no"""
+    subtotal == order
 
 #print subtotal 
 print(f'Your subtotal is ${subtotal:.2f}')

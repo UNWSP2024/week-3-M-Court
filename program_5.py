@@ -21,11 +21,11 @@ cheese = input("Would you like cheese? ")
 peppers = input("Would you like peppers? ")
 
 if cheese == "yes" and peppers == "yes":
-		subtotal = float(f"{order + 1.5}")
+		subtotal = order + 1.5
 if cheese == "yes" and peppers == "no": 
-		subtotal = float(f"{order + 0.5}")
+		subtotal = order + 0.5
 if cheese == "no" and peppers == "yes":
-		subtotal == float(f"{order + 1}")
+		subtotal == order + 1
 
 #print subtotal 
 print(f'Your subtotal is ${subtotal:.2f}')

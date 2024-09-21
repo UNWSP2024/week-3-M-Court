@@ -10,53 +10,22 @@
 order = input("Would you like a hot dog or chili dog? ")
 
 if "Hot Dog":
-		subtotal = 3.5
+		order = 3.5
 if "Chili Dog":	
-		subtotal = 4.5
+		order = 4.5
 
-#user decides if they want cheese
+#ask user if they want cheese
 cheese = input("Would you like cheese? ")
-if "Yes" add 0.5
 
+#ask user if they want peppers
+peppers = input("Would you like cheese? ")
 
-
-
-   new subtotal = subtotal + 0.5
-
-
-
-
-step_1 = input("Would you like a hot dog or chili dog? ")
-
-if input == "Hot Dog":
-	order = 3.5
-if input == "Chili Dog":	
-	order == 4.5
-
-cheese = input("Would you like cheese?")
-if input == "yes"
-	order2 = 3.5
-else: 
-	order
-
-peppers = input("Would you like peppers")
-
-{order + }
-	
-	
-#	if peppers == "yes" and cheese == "yes"
-	#	subtotal = "f{hot dog}" + 1.5
-#	if peppers == "yes" and cheese == "no"
-#		subtotal = "f{subtotal}" + 1
-	#if peppers == "no" and cheese == "yes"
-	#	subtotal == 
-  	
-
-
-#user decides if they want peppers
-
-if "no":
-    subtotal = subtotal
+if cheese == "yes" and peppers == "yes":
+		subtotal = float(f"{order + 1.5}")
+if cheese == "yes" and peppers == "no": 
+		subtotal = float(f"{order + 0.5}")
+if cheese == "no" and peppers == "yes":
+		subtotal == float(f"{order + 1}")
 
 #print subtotal 
 print(f'Your subtotal is ${subtotal:.2f}')

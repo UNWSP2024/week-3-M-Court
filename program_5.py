@@ -6,12 +6,12 @@
 # The program then displays the hot dog cost, tax and total cost. 
 
 
-#user chooses Hot Dog or Chili Dog
+#user chooses hot dog or chili dog
 order = input("Would you like a hot dog or chili dog? ")
 
-if order == "Hot Dog":
+if order == "hot dog":
 		order = 3.5
-if order == "Chili Dog":	
+if order == "chili dog":	
 		order = 4.5
 
 #ask user if they want cheese

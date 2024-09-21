@@ -6,9 +6,10 @@
 # The program then displays the hot dog cost, tax and total cost. 
 
 
-#user chooses Hot Dog or Chili Dog
+#user chooses hot dog or chili dog
 order = input("Would you like a hot dog or chili dog? ")
 
+#assign order to a price
 if order == "hot dog":
 		order = 3.5
 if order == "chili dog":	
@@ -20,6 +21,7 @@ cheese = input("Would you like cheese? ")
 #ask user if they want peppers
 peppers = input("Would you like peppers? ")
 
+#add condiment prices to order
 if cheese == "yes" and peppers == "yes":
 		subtotal = order + 1.5
 if cheese == "yes" and peppers == "no": 
